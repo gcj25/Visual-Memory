@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+backend/weights/
+data/observations/
+data/images/
+outputs/
+*.log
+.pytest_cache/

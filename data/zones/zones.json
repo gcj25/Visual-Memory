@@ -1,0 +1,13 @@
+{
+  "zones": [
+    {
+      "id": "example_walkway",
+      "name": "Example walkway (edit for your scene)",
+      "description": "EXAMPLE configuration: lower-centre strip in normalized image coordinates. Replace with your own polygon.",
+      "coordinate_space": "normalized",
+      "enabled": true,
+      "polygon": [[0.25, 0.70], [0.75, 0.70], [0.85, 1.0], [0.15, 1.0]],
+      "rule": {"type": "overlap_fraction", "min_overlap_fraction": 0.2, "classes": ["chair", "backpack", "bottle", "cup", "book"]}
+    }
+  ]
+}
